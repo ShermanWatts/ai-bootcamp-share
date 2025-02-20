@@ -1,0 +1,51 @@
+venv-*
+.ipynb_checkpoints/
+
+# Ignore Python Virtual Environments & Packages
+venv/
+.env/
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore Node.js Dependencies (If applicable)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignore OS-Specific Junk Files
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Ignore Logs & Temp Files
+logs/
+*.log
+*.out
+*.tmp
+*.swp
+
+# Ignore API Keys & Sensitive Files
+.env
+config.json
+secrets.yml
+apikeys.txt
+
+# Ignore Build & Compiled Files
+dist/
+build/
+*.o
+*.class
+*.jar
+*.exe
+
+# Ignore IDE & Editor Settings
+.vscode/
+.idea/
+*.sublime-workspace
+.project
+.classpath
+.settings/
